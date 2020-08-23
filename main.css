@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.stocks {
+    height: 50vh;
+    width: 100vw;
+    background-color: #383838;
+    position: relative;
+}
+
+.stocks div{
+    width: 33%;
+    height: 100%;
+    float: left;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.value  {
+    height: 50vh;
+    width: 100vw;    
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #303030;
+    position: relative;
+    color: white;
+}
